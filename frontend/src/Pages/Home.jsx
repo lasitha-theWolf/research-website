@@ -2,6 +2,7 @@ import React from "react";
 import Biography from "../components/Biography";
 import Departments from "../components/Departments";
 import Hero from "../components/Hero";
+import FieldVisit from "../components/FieldVisit";
 import Domain from "./Domain";
 import Milestones from "./Milestones";
 import Navbar from "../components/Navbar";
@@ -26,6 +27,7 @@ const Home = () => {
        <Milestones/>
        <Documents />
        <Presentations />
+       <FieldVisit />
        <OurTeam/>
       <Departments />
       <ContactUs/>
